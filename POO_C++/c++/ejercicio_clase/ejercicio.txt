@@ -1,0 +1,16 @@
+/*
+    ?Ejercicio 1
+    el usuario debde de ingresar euna vocal minuscula La debe de convertir en mayuscula, si es mayuscula  en minuscula
+    indicar que no es vocal
+
+    ?Ejercicio 2
+    Hacer un menu que dado dos numero permite realizar una operacion baasica
+    suma
+    resta
+    multiplicacion
+    divizion
+
+    ?Ejercicio 3
+    Dado una letra y un numero el programa pueda mostrar esa letra las veces indicada por el usuario
+    
+*/
