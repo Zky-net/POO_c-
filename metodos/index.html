@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <label for="input_ecuacion">Ingrese su ecuación</label><br>
+            <input type="text" name="input_ecuacion" id="input">
+            <p><sub>coloca un * en las multiplicacion</sub></p>
+        </div>  
+        <div>
+            <label for="limiteInferior">Limite inferior</label><br>
+            <input type="number" class="inputLimite"><br>
+            <label for="limiteItSuperior">Limite superior</label><br>
+            <input type="number" class="inputLimite">
+        </div>
+        <div class="opciones_metodos">
+            <select name="metodos" id="opcionesMetodos">
+                <option value="Biseccion">Biseccion</option>
+                <option value="secante">Secante</option>
+            </select>
+        </div><br>
+        <button id="btnCalcular">calcular</button>
+        <div class="contenedor">
+            <div class="lista_Puntos">
+
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
