@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 class Persona{
@@ -32,12 +31,9 @@ void Persona::mostrarPersona(){
     cout<<"Edad: "<<edad<<endl;
     cout<<"Fecha de nacimiento: "<<dia<<"/"<<mes<<"/"<<anio<<endl;
     cout<<""<<endl;
-
 }
 
 int main(){
-
-    //Instancioando la clase persona
 
     Persona persona;
     Persona persona2;
@@ -48,6 +44,5 @@ int main(){
     persona.mostrarPersona();
     persona2.mostrarPersona();
     
-
     return 0;
 }
