@@ -1,36 +1,8 @@
 #include <iostream>
+#include "clase_circulo.h"
 //LUIS ANGEL DIAZ DIAZ
 using namespace std;
 
-class Circulo{
-    private:
-        float radio; 
-    public:
-        void asignarValores(float _radio){
-
-            if (_radio >= 1){
-                radio= _radio;
-            }else{
-                radio = 1;
-            }      
-        } 
-
-        void mostartCirculo(){
-            cout<<"El radio del circulo es: "<<radio<<endl;
-        }
-
-        void setRadio(float _radio){
-            if (_radio >= 1){
-                radio= _radio;
-            }else{
-                radio = 1;
-            }      
-        }
-        
-        float getRadio(){
-            return radio;
-        }
-};
 
 int main(){
     Circulo c1,c2;
